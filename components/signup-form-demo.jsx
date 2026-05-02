@@ -21,7 +21,7 @@ export default function SignupFormDemo() {
         Completá el formulario o escribinos directamente por <a href="google.com" className="text-green-400">WhatsApp</a> y te respondemos a la brevedad. 
       </p>
     <div
-      className="shadow-input max-w-7xl pl-4 pb-6 mx-auto rounded-none bg-white  md:rounded-2xl md:p-8 dark:bg-black">
+      className="shadow-input max-w-7xl pl-4 pb-6 mx-auto rounded-none  md:rounded-2xl md:p-8 dark:bg-black">
         
       
       <form className="max-w-md " onSubmit={handleSubmit}>

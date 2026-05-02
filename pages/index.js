@@ -6,7 +6,7 @@ import SignupFormDemo from "@/components/signup-form-demo";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-olive-50">
       <NavbarDemo />      
       <AppleCardsCarouselDemo />   
       <SignupFormDemo />   
