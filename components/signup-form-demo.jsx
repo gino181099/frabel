@@ -26,9 +26,7 @@ export default function SignupFormDemo() {
       
       <form className="max-w-md " onSubmit={handleSubmit}>
         <div
-          className="my-8 h-[1px] w-full bg-gradient-to-r from-transparent via-neutral-300 to-transparent dark:via-neutral-700" />
-        <div
-          className="mb-4 flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2">
+          className="mb-4 flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-2 pt-8">
           <LabelInputContainer>
             <Label htmlFor="firstname">Nombre de la persona o empresa</Label>
             <Input id="firstname" placeholder="Nombre" type="text" />

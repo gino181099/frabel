@@ -180,7 +180,7 @@ const DummyContent = () => {
         </div>
       </motion.div> */}
     </section>
-      <section className="py-24 px-6" id="nosotros">
+      <section className="py-24" id="nosotros">
       <div className="max-w-7xl mx-auto" >
         <div className="grid md:grid-cols-2 gap-16 items-center pb-6">
           
@@ -191,14 +191,12 @@ const DummyContent = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-[10px] uppercase tracking-[0.3em] text-neutral-500 mb-4 font-bold">
-              Nuestra Identidad
-            </h2>
-            <h3 className="text-4xl md:text-5xl font-medium tracking-tight mb-8 leading-tight">
-              Quienes somos
+            
+            <h2 className="max-w-7xl pt-6 pb-8 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+              Quienes somos.
               {/* <span className="text-neutral-500 italic">rigor analítico.</span> */}
-            </h3>
-            <div className="space-y-6 text-neutral-400 text-lg font-light leading-relaxed">
+            </h2>
+            <div className="space-y-6 text-neutral-500 text-lg font-light leading-relaxed">
               <p>
                 Somos una empresa familiar de Mendoza con años de experiencia en transporte de pasajeros. Entendemos que cada traslado implica responsabilidad, por eso trabajamos con foco en la puntualidad, la seguridad y el trato profesional.
               </p>
