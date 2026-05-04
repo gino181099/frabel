@@ -21,7 +21,7 @@ export default function Home() {
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Transporte Fra-Bel Viajes S.R.L. | Transporte de Pasajeros en Mendoza" />
   <meta property="og:description" content="Servicios profesionales de transporte en Mendoza. Traslados a bodegas, excursiones, traslados al aeropuerto y logística para empresas. Calidad y seguridad en cada viaje." />
-  <meta property="og:image" content="/1.jpg" /> {/* Crea una imagen de 1200x630px con tu logo y una van/paisaje */}
+  <meta property="og:image" content="https://www.frabelviajes.com/1.jpg" /> {/* Crea una imagen de 1200x630px con tu logo y una van/paisaje */}
   <meta property="og:url" content="https://www.frabelviajes.com/" />
 
   {/* Twitter Card */}

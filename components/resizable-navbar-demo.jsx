@@ -222,7 +222,7 @@ const DummyContent = () => {
               <ShieldCheck className="text-emerald-500" />
             </div>
             <div>
-              <h4 className="font-bold text-sm">Garantía Operativa</h4>
+              <h4 className="font-bold text-sm text-black">Garantía Operativa</h4>
               <p className="text-xs text-neutral-400">Unidades habilitadas según normativa vigente. Mantenimiento periódico de la flota. Conductores con experiencia</p>
             </div>
           </div>

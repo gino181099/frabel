@@ -42,7 +42,7 @@ export default function SignupFormDemo() {
         Contacto.
       </h2>
       <p
-        className="max-w-7xl pl-4 mx-auto ">
+        className="max-w-7xl pl-4 mx-auto text-black">
         Completá el formulario o escribinos directamente por <a href="https://wa.link/8bsz7n" target="_blank" className="text-green-400 cursor-pointer">WhatsApp</a> y te respondemos a la brevedad. 
       </p>
     <div
