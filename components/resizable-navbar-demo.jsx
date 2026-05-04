@@ -41,7 +41,8 @@ export default function NavbarDemo() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Contactar</NavbarButton>
+            
+            <NavbarButton variant="primary" href="#contacto">Contactar</NavbarButton>
           </div>
         </NavBody>
 
@@ -68,7 +69,7 @@ export default function NavbarDemo() {
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
-                className="w-full">
+                className="w-full" href="#contacto">
                 Contactar
               </NavbarButton>
             </div>
@@ -157,7 +158,7 @@ const DummyContent = () => {
           className="mt-12 flex flex-col sm:flex-row gap-6 items-center"
         >
           <a 
-            href="https://wa.me/tu_numero"
+            href="#contacto"
             className="group relative flex items-center gap-3 bg-white text-black px-8 py-4 rounded-xl font-bold hover:bg-neutral-200 transition-all overflow-hidden shadow-2xl"
           >
             <MessageCircle size={20} className="group-hover:scale-110 transition-transform" />
@@ -225,9 +226,9 @@ const DummyContent = () => {
               <p className="text-xs text-neutral-400">Unidades habilitadas según normativa vigente. Mantenimiento periódico de la flota. Conductores con experiencia</p>
             </div>
           </div>
-          <button className="text-xs font-bold border border-white/10 px-6 py-3 rounded-full hover:bg-white hover:text-black transition">
+          {/* <button className="text-xs font-bold border border-white/10 px-6 py-3 rounded-full hover:bg-white hover:text-black transition">
             VER CERTIFICACIONES
-          </button>
+          </button> */}
         </motion.div>
       </div>
     </section>
