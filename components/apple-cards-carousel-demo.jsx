@@ -54,38 +54,38 @@ const data = [
   {
     category: "Minibuses 18 pasajeros",
     title: "2 Unidades",
-    src: "/4.jpg",
+    src: "/4.webp",
     content: <DummyContent />,
   },
   {
     category: "Minibuses 15 pasajeros",
     title: "1 Unidad",
-    src: "/3.jpg",
+    src: "/3.webp",
     content: <DummyContent />,
   },
   {
     category: "Van 12 pasajeros",
     title: "1 Unidad",
-    src: "/5.jpg",
+    src: "/5.webp",
     content: <DummyContent />,
   },
 
   {
     category: "Todas nuestras unidades cuentan con",
     title: "Aire acondicionado",
-    src: "/2.jpg",
+    src: "/2.webp",
     content: <DummyContent />,
   },
   {
     category: "Todas nuestras unidades cuentan con",
     title: "Espacio para equipaje",
-    src: "/1.jpg",
+    src: "/1.webp",
     content: <DummyContent />,
   },
   {
     category: "Todas nuestras unidades cuentan con",
     title: "Mantenimiento regular",
-    src: "/6.jpg",
+    src: "/6.webp",
     content: <DummyContent />,
   },
 ];

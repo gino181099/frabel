@@ -1,4 +1,4 @@
-"use client";;
+"use client";
 import React, {
   useEffect,
   useRef,
@@ -14,6 +14,7 @@ import {
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
 import { useOutsideClick } from "@/hooks/use-outside-click";
+import Image from "next/image";
 
 export const CarouselContext = createContext({
   onCardClose: () => {},
@@ -242,10 +243,10 @@ export const BlurImage = ({
 }) => {
   const [isLoading, setLoading] = useState(true);
   return (
-    <img
+    <Image
       className={cn(
-        "h-full w-full transition duration-300",
-        isLoading ? "blur-0" : "blur-0",
+        "h-full w-full transition duration-300 cursor-pointer",
+        isLoading ? "blur-1" : "blur-0",
         className
       )}
       onLoad={() => setLoading(false)}
@@ -254,6 +255,7 @@ export const BlurImage = ({
       height={height}
       loading="lazy"
       decoding="async"
+      sizes="(max-width: 800px) 100vw, 800px"
       blurDataURL={typeof src === "string" ? src : undefined}
       alt={alt ? alt : "Background of a beautiful view"}
       {...rest} />
